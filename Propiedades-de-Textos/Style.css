@@ -1,0 +1,39 @@
+P{
+    color: red;
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: bold;
+    font-weight:bolder;
+    font-weight:700;
+    /*itali es el valor normal de inclinasio solo es para cambiar*/
+    font-style:italic;
+    /* El oblique salio en navegadores nuevos es para el futuro*/
+    font-weight:oblique 70deg;
+    /* end es como si pousieramos right y start es como si pusieramos left*/
+    text-align:center;
+    
+    text-align:justify;
+    /* underline es como si pusieramos un link, poner una barra abajo de la letras, y overline que poner la barra por arrivar
+     y tenemos line-through que no suralla la letras y se puede meclas la propiedades como underline y overlane
+     */
+    text-decoration:underline;
+    /*El span es para seleciona una palabra o varias para poder cambiar solo esa parte*/
+    line-height:1.5;
+    /*Esto poner espacio entre las letra o quita esto tiene %*/
+    letter-spacing: 7px;
+    /*Esto es el Spacio entre letras*/
+    text-transform:uppercase;
+    /*Esto hacer que las letra esten en Mayuscula y lowercase transforma el texto en minuscula
+    y la capitalize me pooner todas la inciales en mayuscula y las demas en minuscula
+    y para los arabes el full-width transforma el texto en un ancho completo*/
+    
+
+
+}    
+h1{
+    text-align:center;
+}
+a{
+    /*esto es para quitar el surallado de un link*/
+    text-decoration:none;
+}
